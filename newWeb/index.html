@@ -4,75 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
     <title>Supermercado Disco</title>
 </head>
 <body>
      <header>
         <nav class="info_empresa">
-            <img src="imagenes/phone.png" alt=""><a href="#">0810-777-8888</a>
-            <form>
-                <input type="text" placeholder="Buscar productos"  size="70" maxlength="15" id="buscar">
-            </form>
-            <img src="imagenes/gps.png" alt=""><a href="#">Tu ubicación</a>
-            <img src="imagenes/login.png" alt=""><a href="#">Inicia sesión o registrate</a>
+            <div class="phone">
+                <img src="imagenes/phone.png" alt=""><span>0810-777-8888</span>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Buscar productos" maxlength="15">
+                <a href=""><img src="https://img.icons8.com/ios-glyphs/30/000000/zoom-in.png"/></a>
+            </div>
+            <div class="gps">
+                <img src="imagenes/gps.png" alt=""><span>Tu ubicación</span>
+            </div>
+            <div class="login">
+                <img src="imagenes/login.png" alt=""><span>Inicia sesión o registrate</span>
+            </div>
         </nav>
+
         <nav class="productos">
+            <img id="logo" src="imagenes/logo.png" alt="" width="120px">
             <ul class="menu">
-                <img id="logo" src="imagenes/logo.png" alt="" width="120px">
-                <li><img src="imagenes/ofertas.png" alt=""><a href="#">Ofertas</a></li>
-                <li><img src="imagenes/almacen.png" alt=""><a href="#">Almacén</a></li>
-                <li><img src="imagenes/bebidas.png" alt=""><a href="#">Bedidas</a></li>
-                <li><img src="imagenes/frutas.png" alt=""><a href="#">Frutas y Verduras</a></li>
-                <li><img src="imagenes/carnes.png" alt=""><a href="#">Carnes y Pescados</a></li>
-                <li><img src="imagenes/quesos.png" alt=""><a href="#">Quesos y Fiambres</a></li>
-                <li><img src="imagenes/lacteos.png" alt=""><a href="#">Lácteos</a></li>
-                <li><img src="imagenes/congelados.png" alt=""><a href="#">Congelados</a></li>
-                <li><img src="imagenes/elaborados.png" alt=""><a href="#">Elaborados</a></li>
-                <li><img src="imagenes/perfumeria.png" alt=""><a href="#">Perfumería</a></li>
-                <li><img src="imagenes/limpieza.png" alt=""><a href="#">Limpieza</a></li>
-                <li><img src="imagenes/mascotas.png" alt=""><a href="#">Mascotas</a></li>
-                <li><img src="imagenes/electro.png" alt=""><a href="#">Electro y Hogar </a></li>
+                <a href=""><li><img src="imagenes/ofertas.png" alt=""><p>Ofertas</p></li></a>
+                <a href=""><li><img src="imagenes/almacen.png" alt=""><p>Almacén</p></li></a>
+                <a href=""><li><img src="imagenes/bebidas.png" alt=""><p>Bedidas</p></li></a>
+                <a href=""><li><img src="imagenes/frutas.png" alt=""><p>Frutas y Verduras</p></li></a>
+                <a href=""><li><img src="imagenes/carnes.png" alt=""><p>Carnes y Pescados</p></li></a>
+                <a href=""><li><img src="imagenes/quesos.png" alt=""><p>Quesos y Fiambres</p></li></a>
+                <a href=""><li><img src="imagenes/lacteos.png" alt=""><p>Lácteos</p></li></a>
+                <a href=""><li><img src="imagenes/congelados.png" alt=""><p>Congelados</p></li></a>
+                <a href=""><li><img src="imagenes/elaborados.png" alt=""><p>Elaborados</p></li></a>
+                <a href=""><li><img src="imagenes/perfumeria.png" alt=""><p>Perfumería</p></li></a>
+                <a href=""><li><img src="imagenes/limpieza.png" alt=""><p>Limpieza</p></li></a>
+                <a href=""><li><img src="imagenes/mascotas.png" alt=""><p>Mascotas</p></li></a>
+                <a href=""><li><img src="imagenes/electro.png" alt=""><p>Electro y Hogar </p></li></a>
             </ul>			
         </nav>
      </header>
      <main>
-        <div class="container_bancos">
+        <div class="container_ofertas">
             <a href="#"><img src="#" alt="promocion banco"></a>
-            <nav>
-                <b></b>
-                <b></b>
-                <b></b>
-                <b></b>
-                <b></b>
-                <b></b>
-                <b></b>
-                <b></b>
+            <nav class="puntitos">
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
+                <a href="#"><b></b></a>
             </nav>
         </div>
         <nav class="container_info">
-            <a href="#">
-                <span>
-                    <img src="#" alt="tarjeta de credito">
-                    <p>Descuentos bancarios</p>
-                </span>
+            <a href="#" class="boton_info">
+                    <img src="https://img.icons8.com/officel/30/000000/mastercard-credit-card.png" alt="tarjeta de credito">
+                    <p>Descuentos
+                         bancarios</p>
             </a>
-            <a href="#">
-                <span>
-                    <img src="#" alt="descuentos">
+            <a href="#" class="boton_info">
+                    <img src="https://img.icons8.com/ios/50/000000/price-tag.png" alt="descuentos">
                     <p>Ofertas y catálogos</p>
-                </span>
             </a>
-            <a href="#">
-                <span>
-                    <img src="#" alt="sucursal">
+            <a href="#" class="boton_info">
+                    <img src="https://img.icons8.com/ios/50/000000/shop.png" alt="sucursal">
                     <p>Encontrá tu sucursal</p>
-                </span>
             </a>
-            <a href="#">
-                <span>
-                    <img src="#" alt="Camion">
+            <a href="#" class="boton_info">
+                    <img src="https://img.icons8.com/wired/64/000000/checked-truck.png" alt="Camion">
                     <p>Métodos de entrega</p>
-                </span>
             </a>
         </nav>
      </main>
