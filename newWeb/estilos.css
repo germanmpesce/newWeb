@@ -2,3 +2,65 @@
 
 
 .container_info {}
+
+
+
+
+header {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+
+
+
+
+.info_empresa {
+    padding:4px;
+    text-align: center;
+    color: #000000;
+}
+
+.info_empresa a {
+    text-decoration: none;
+    color: #000000;
+}
+.info_empresa form {
+    display:inline-block;
+    color: #000000;
+    border: #BDBDBD;
+}
+
+
+
+
+
+
+.productos {
+    position:fixed;
+    width: 100%;
+}
+
+.productos ul {
+	width:100%;
+	padding:10px;
+	margin:0;
+	background: #424242;
+	list-style:none;
+    text-align:center;
+    font-size: 10px;
+}
+
+.productos ul li {
+	display:inline-block;
+}
+
+
+.productos ul li a {
+    overflow: hidden;
+	padding: 10px;
+	text-decoration:none;
+	display: inline-block;
+    color: #FFFFFF;
+    text-align: justify;
+}
