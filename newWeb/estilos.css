@@ -27,6 +27,10 @@ header {
     flex-direction: row; /*Por default viene en row*/
 }
 
+.info_empresa img {
+    height: 100%;
+}
+
 /*telefono*/
 .info_empresa .phone {
     display:flex;
@@ -37,6 +41,7 @@ header {
 
 .info_empresa .phone img {
     margin-right: 5px;
+    height: 60%;
 }
 
 .info_empresa .phone a {
@@ -99,7 +104,10 @@ header {
     font-weight: 600;
     text-decoration: none;
     color: black;
+    height: 80%;
 }
+
+
 
 /*login*/
 .info_empresa .login {
@@ -118,6 +126,7 @@ header {
     font-weight: 600;
     text-decoration: none;
     color: black;
+    height: 100%;
 }
 
 .info_empresa .login a:hover  {
