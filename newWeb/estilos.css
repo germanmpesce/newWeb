@@ -138,7 +138,8 @@ header {
     justify-content: flex-start;
     align-items: center;
     height: 75px;
-    position:fixed;
+    position: sticky;
+    top: 0px;
     width: 100%;
 }
 
