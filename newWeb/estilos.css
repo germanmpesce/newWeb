@@ -281,7 +281,7 @@ header {
 
 
 
-
+/*FOOTER*/
 footer {
     background-color: #444;
     color: #FFFFFF;
@@ -306,6 +306,7 @@ footer .foot1 {
 footer .foot1 div {
     padding-left: 30px;
     padding-right: 30px;
+    padding-top:1px;
 }
 
 footer .foot1 div h2 {
@@ -314,11 +315,10 @@ footer .foot1 div h2 {
     align-items: center;
     font-weight: bold;
     font-size: medium;
-    padding: 1px;
-
+    padding:0px;
 }
 
-footer a, p {
+footer a {
     text-decoration: none;
     color: #A4A4A4;
     font-size: 0.7em;
@@ -329,6 +329,14 @@ footer a, p {
 
 footer a:hover {
     color: #FAFAFA;
+}
+
+footer .foot1 h3 {
+    text-decoration: underline;
+    width: 25px;
+    height: 1px;
+    background-color: #5F5F5F;
+    padding:0px;
 }
 
 
@@ -389,6 +397,16 @@ footer .redes {
     justify-content: center;
     align-items: center;
 }
+
+footer .redes a {
+    display: flex;
+    align-items: center;
+}
+
+footer .redes a img {
+    width: 50%;
+}
+
 
 footer .redes a .fb:hover {
     opacity: 100%;
