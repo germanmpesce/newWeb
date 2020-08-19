@@ -1,5 +1,6 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
 }
 
 /*Main con un alto de pagina y media*/
@@ -276,3 +277,185 @@ header {
     height: 30px;
     padding-right: 10px;
 }
+
+
+
+
+
+footer {
+    background-color: #444;
+    color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    display:flex;  
+    flex-direction: column; 
+    padding-bottom: 0px;
+}
+
+
+footer div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer .foot1 {
+    display: flex;
+    justify-content: center;
+}
+
+footer .foot1 div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer .foot1 div h2 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: medium;
+    padding: 1px;
+
+}
+
+footer a, p {
+    text-decoration: none;
+    color: #A4A4A4;
+    font-size: 0.7em;
+    flex-direction: column;
+    display:flex;
+    padding: 3px;
+}
+
+footer a:hover {
+    color: #FAFAFA;
+}
+
+
+
+
+
+/*contenedores del logo, telefono, redes y sponsors*/
+footer .foot2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LOGO DEL DISCO */
+footer .logo_final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .logo_final a {
+    height: 10%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .logo_final a img {
+    width: 100%;
+}
+
+/*LINK DEL TELEFONO*/
+
+footer .phone_final {
+    display:flex;
+}
+
+footer .phone_final a {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .phone_final img {
+    margin-right: 5px;
+}
+
+
+footer .phone_final a:hover {
+    text-decoration: underline;
+}
+
+/*REDES*/
+footer .redes {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .redes a .fb:hover {
+    opacity: 100%;
+    background-color:#0174DF;
+}
+
+footer .redes a .tw:hover {
+    opacity: 100%;
+    background-color:#00BFFF;
+}
+
+footer .redes a .ig:hover {
+    opacity: 100%;
+    background-color:#FA5858;
+}
+
+/*SPONSORS*/
+footer .sponsors {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .sponsors a:hover{
+    opacity: 30%;
+}
+
+footer .sponsors a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .sponsors a img {
+    height: auto;
+    width: 40%;
+}
+
+/*COPYRIGHT*/
+footer .copyright {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .copyright p {
+    color: #FAFAFA;
+    font-size: 0.7em;
+}
+
+/*VER MAS*/
+footer .ver_mas {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .ver_mas button {
+    width: 10%;
+}
+
+footer .ver_mas:hover {
+    opacity: 80%;
+}
+
+
+
